@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+}
+
+.left {
+  height: 100%;
+  /* background-color: red; */
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right {
+  height: 100%;
+  background-image: url(assets/danika-perkinson-QxHJ9lkXYNk-unsplash.jpg);
+  background-size: cover;
+  width: 60%;
+}
+
+.left-part {
+  text-align: center;
+}
+.fa-graduation-cap {
+  font-size: 72px;
+}
+form {
+  width: 70%;
+  height: 80%;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  color: white;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+}
+input,
+select {
+  padding: 5px;
+  margin-bottom: 30px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #eee;
+}
+input::placeholder {
+  color: #eee;
+}
+.btn-item,
+button {
+  padding: 10px 5px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  background: #26a9e0;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+}
+.btn-item {
+  display: inline-block;
+  margin: 20px 5px 0;
+}
+button {
+  width: 100%;
+}

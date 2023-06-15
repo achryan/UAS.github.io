@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traveling...</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a class="closebtn" onclick="closeSide()">&times;</a>
+      <a href="#section1">About</a>
+      <a href="#section2">Services</a>
+      <a href="#section3">Clients</a>
+      <a href="#s">Contact</a>
+    </div>
+    <div class="navbar1" id="navbar">
+      <!-- navbar -->
+      <div class="title">TRAVERS</div>
+      <div class="list">
+        <ul>
+          <li><a href="#">Deals</a></li>
+          <li><a href="#">Destin's</a></li>
+          <li><a href="#">LogIn</a></li>
+          <li><a href="#" onclick="openSide()">&#9776;</a></li>
+        </ul>
+      </div>
+    </div>
+    <section id="section1">
+      <div class="container1">
+        <!-- //slide1 -->
+        <div class="main1">
+          <div class="text">
+            <p><b>UP TO 60%</b> ADVENTURE TRAVEL</p>
+            <p>JOIN OVER 40.000 MEMBERS</p>
+            <p>
+              Get exclusive accsess to members only deals on<br />amazing
+              adventure holidays by email - it's free
+            </p>
+          </div>
+          <form onsubmit="event.preventDefault();" role="search">
+            <label for="search">Search for stuff</label>
+            <input
+              id="search"
+              type="search"
+              placeholder="Your Email..."
+              autofocus
+              required
+            />
+            <button type="submit">Subs</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section id="section2">
+      <div class="container2">
+        <div class="recent-deal-title">Recent's Deal</div>
+        <div class="grid-cons">
+          <div class="item item1 pic"></div>
+          <div class="item item2 picT">
+            <div class="deal">
+              <p class="dest">Patagonia Wilderness trek</p>
+              <p class="desc">Patagonia Wilderness trek</p>
+            </div>
+            <div class="strip">
+              <p class="price">$1071</p>
+            </div>
+          </div>
+          <div class="item item3 pic"></div>
+          <div class="item item4 picT">
+            <div class="deal">
+              <p class="dest">Patagonia Wilderness trek</p>
+              <p class="desc">Patagonia Wilderness trek</p>
+            </div>
+            <div class="strip">
+              <p class="price">$1071</p>
+            </div>
+          </div>
+          <div class="item item5 picT">
+            <div class="deal">
+              <p class="dest">Patagonia Wilderness trek</p>
+              <p class="desc">Patagonia Wilderness trek</p>
+            </div>
+            <div class="strip">
+              <p class="price">$1071</p>
+            </div>
+          </div>
+          <div class="item item6 pic"></div>
+          <!-- <div class="item">7</div>
+          <div class="item">8</div>
+          <div class="item">9</div> -->
+        </div>
+      </div>
+    </section>
+    <section id="section3">
+      <div class="container3">
+        <!-- //slide2 -->
+        <div class="main">
+          <p class="signUp">Sign UP</p>
+          <p class="signDesc">for adventure</p>
+          <a href="form.html">
+            <div class="button">SignUp</div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
